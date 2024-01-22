@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { X, AlignJustify } from "lucide-react";
+import { DropDownMenu } from "./drop-down-menu";
 
 export const ActionButtons = () => {
 	const [isDropdownVisible, setIsDropdownVisible] = useState<boolean>(false);
@@ -11,7 +12,7 @@ export const ActionButtons = () => {
 		setIsDropdownVisible(!isDropdownVisible);
 	};
 
-	const closeDropdownL: () => void = () => {
+	const closeDropdown: () => void = () => {
 		setIsDropdownVisible(false);
 	};
 
@@ -52,6 +53,8 @@ export const ActionButtons = () => {
 					<AlignJustify className="h-6 w-6 text-[#565add] items-center justify-center rounded-full" />
 				</div>
 			)}
+
+			{isDropdownVisible && <DropDownMenu onclose={closeDropdown} />}
 		</div>
 	);
 };
