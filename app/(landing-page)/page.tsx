@@ -1,6 +1,14 @@
 import { Navbar } from "@/components/ui";
 import React from "react";
-import { FirstSection, Sliders, SecondSection, ThirdSection } from "./_components";
+import {
+	FirstSection,
+	Sliders,
+	SecondSection,
+	ThirdSection,
+	FourthSection,
+	FifthSection,
+	SixthSection,
+} from "./_components";
 const LandingPage = () => {
 	return (
 		<div>
@@ -8,7 +16,10 @@ const LandingPage = () => {
 			<FirstSection />
 			<Sliders />
 			<SecondSection />
-			<ThirdSection  />
+			<ThirdSection />
+			<FourthSection />
+			<FifthSection />
+			<SixthSection />
 		</div>
 	);
 };
