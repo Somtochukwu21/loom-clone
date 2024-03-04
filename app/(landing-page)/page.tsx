@@ -8,6 +8,7 @@ import {
 	FourthSection,
 	FifthSection,
 	SixthSection,
+	SeventhSection,
 } from "./_components";
 const LandingPage = () => {
 	return (
@@ -20,6 +21,7 @@ const LandingPage = () => {
 			<FourthSection />
 			<FifthSection />
 			<SixthSection />
+			<SeventhSection />
 		</div>
 	);
 };
