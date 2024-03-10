@@ -1,3 +1,4 @@
+export * from "./eigth-section";
 export * from "./fifth-section";
 export * from "./first-section";
 export * from "./fourth-section";

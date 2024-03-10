@@ -1,14 +1,14 @@
 import { Navbar } from "@/components/ui";
-import React from "react";
 import {
-	FirstSection,
-	Sliders,
-	SecondSection,
-	ThirdSection,
-	FourthSection,
+	EighthSection,
 	FifthSection,
-	SixthSection,
+	FirstSection,
+	FourthSection,
+	SecondSection,
 	SeventhSection,
+	SixthSection,
+	Sliders,
+	ThirdSection,
 } from "./_components";
 const LandingPage = () => {
 	return (
@@ -22,6 +22,7 @@ const LandingPage = () => {
 			<FifthSection />
 			<SixthSection />
 			<SeventhSection />
+			<EighthSection />
 		</div>
 	);
 };
